@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hackaton</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+	<script type="text/javascript" src="jquery/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+	
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">ESPE-L</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li ><a href="#">Fabian Toapanta<span class="sr-only">(current)</span></a></li>
+		        
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Acerca del Metodo <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a data-target="#myModal" data-toggle="modal"  >Informcion</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">One more separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>		     
+		      <button type="button" class="btn btn-primary btn-lg navbar-right" data-toggle="modal" data-target="#login">
+				  Login
+		   	  </button>
+		      
+		     
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="container">
+		  <div class="jumbotron " style="background: url('./img/fondo2.jpg') no-repeat center; background-size:cover; text-align: right;">
+				
+			<div class="header" ></div>
+		    <h1>Test de Aptitud</h1> 
+		    
+		  	</div>
+			 
+		</div>
+		<div class="container" >
+
+
+			<div class="panel panel-default">
+			<div class="panel-body" style="text-align: center;"><h2>Ingenierias a seguir:</h2></div>
+				<div class="row row-centered" >
+					  <div class="col-xs-2 col-centered">
+					    <div class="thumbnail">
+					      
+					        <img src="./img/soft.png" alt="Lights" class="regla img-responsive" >
+						        <div >
+					           <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#login">Detalles</button>
+						        </div>
+					      
+					    </div>
+					  </div>
+					  <div class="col-xs-2 col-centered">
+					    <div class="thumbnail">
+					      
+					        <img src="./img/IngElectromecanica.jpg" alt="Nature" class="regla img-responsive" >
+					        <div >
+					           <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#login">Detalles</button>
+						        </div>
+					     
+					    </div>
+					  </div>
+					  <div class="col-xs-2 col-centered">
+					    <div class="thumbnail">
+					      
+					        <img src="./img/meca.png.jpg" alt="Nature"  class="regla img-responsive" >
+					        <div >
+					           <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#login">Detalles</button>
+						        </div>
+					     
+					    </div>
+					  </div>
+					<div class="col-xs-2 col-centered" >
+				
+					    <div class="thumbnail">
+					     
+					        <img src="./img/Electronica.jpg" alt="Nature"  class="regla img-responsive" >
+					        <div >
+					           <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#login">Detalles</button>
+						      </div>
+					     
+					    </div>
+					  </div>
+					</div>
+			</div>
+			
+			<div class="progress">
+			  <div class="progress-bar progress-bar-striped active" role="progressbar"
+			  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:01%">
+			    40%
+			  </div>
+			</div>
+		</div>
+			
+		<div class="container">
+			
+			
+					<div class="panel-group">
+					<!-- Pregunta 1-->
+					  <div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse1">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse1" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse1">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 2-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse2">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse2" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr2" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr2" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse2">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 3-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse3">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse3" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr3" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr3" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse3">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+					
+					<!-- Pregunta 4-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse4">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse4" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr4" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr4" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse4">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 5-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse5">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse5" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr5" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr5" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse5">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 6-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse6">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse6" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr6" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr6" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse6">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 7-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse7">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse7" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr7" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr7" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse7">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 8-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse8">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse8" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr8" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr8" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse8">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+
+					<!-- Pregunta 3-->
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse9">Pregunta 1: Posse capasidades de razonamiento matematico. 		  </a>
+					      </h4>
+					    </div>
+					    <div id="collapse9" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr9" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr9" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse9">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+					
+					<div class="panel panel-default">
+					    <div class="panel-heading">
+					      <h4 class="panel-title">
+					        <a data-toggle="collapse" href="#collapse10">Pregunta 1: Posse capasidades de razonamiento matematico. </a>
+					      </h4>
+					    </div>
+					    <div id="collapse10" class="panel-collapse collapse">
+					      <div class="panel-body">
+							
+							    
+							    <input type="radio" id="r1" name="rr10" />
+							    <label for="r1"><span></span>Radio Button 1</label>
+							    <p>
+							    <input type="radio" id="r2" name="rr10" />
+							    <label for="r2"><span></span>Radio Button 2</label>
+
+	   					  </div>
+	   					  <div class="panel-footer">
+	   					  	<button type="button" class="btn btn-primary " data-toggle="collapse" href="#collapse10">Aceptar</button>
+	   					  </div>
+					    </div>
+					  </div>
+					
+					</div>
+				
+
+		</div>
+
+		<div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Universidad de las Fuerzas Armadas ESPE-L <a href="http://martinbean.co.uk">Wilson Fabian</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+      </div>
+    </div>
+		<!-- Modal Login-->
+		<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="loginLabel">Modal title</h4>
+		      </div>
+		      <div class="modal-body">
+		        
+		        <!--Contenido Modal -->
+
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			    
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		      </div>
+		      
+		    </div>
+		  </div>
+		</div>
+	
+		
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
